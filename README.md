@@ -20,7 +20,7 @@
 
 #### Kaggle
 
-- **Riid** 
+- <font color="blue">Riid</font>
 
   - [대회 링크](https://www.kaggle.com/c/riiid-test-answer-prediction)
 
@@ -34,13 +34,25 @@
 
     결과가 좋지않았던 이유는 모델선정에 있기보다는, 데이터에 대한 이해가 충분히 이루어지지않아 feature engineering을 제대로 하지 못했기 때문이라고 생각한다.
 
-  
+
+- <font color="blue">PetFinder</font>
+  - 기간 : 2021.12.21 ~ 진행중
+  - [대회 링크](https://www.kaggle.com/c/petfinder-pawpularity-score/overview)
+  - **Result : None**
+  - 개요 : 유기동물들의 이미지의 특징에 따라 pawpularity를 예측하는것
+  - 평가지표 : RMSE
+
+
 
 #### Dacon
 
-- 랜드마크 분류(landmark) : 컴퓨팅 파워의 한계로 제출못함
+- 
 
-- 소설작가 분류(fiction)
+- <font color="red">랜드마크 분류(landmark)</font>
+
+  - 컴퓨팅 파워의 한계로 제출못함
+
+- <font color="blue">소설작가 분류(fiction)</font>
 
   - 기간 : 2020.11 ~ 2020.12
 
@@ -58,13 +70,13 @@
     
     
 
-- 금융문자분석(smishing)
+- <font color="blue">금융문자분석(smishing)</font>
 
   - 기간 : 2019.12 ~ 2020.01
 
   - [대회 링크](https://dacon.io/competitions/official/235401/overview/description/)
   
-- **Result : Top 78% (292/375)**
+  - **Result : Top 78% (292/375)**
   
   - 개요 : 약 30만 개의 실제 문자메시지 데이터가 주어지고 그중에서 스미싱 문자를 분류하는 문제.
   
@@ -75,8 +87,8 @@
   - 분석 과정 : Python의 KoNLPy 라이브러리의 형태소 분석기 중 하나인 Okt를 이용해 메시지에서 명사, 동사, 형용사 등 의미 있는 형태소를 추출. 이후 LSTM모델을 이용해 적합
   
     
-
-- 비트 트레이더 경진대회(coin)
+  
+- <font color="blue">비트 트레이더 경진대회(coin)</font>
 
   - 기간 : 2021.04 ~ 2021.05
 
@@ -95,7 +107,6 @@
     public데이터에서는 꽤나 좋은 결과를 얻었지만(+280%의 수익률) private 데이터에서는 처참한 결과를 얻었다(-33%의 수익률). 이유는 **public**데이터에서는 전체적으로 **코인들이 상승하는 경향**이 강해서 최대한 많은 코인을 매매하는게 좋은 수익을 거뒀지만, **private** 데이터에서는 반대로 코인들이 **하락하는 경향**이 강해서 최대한 많은 코인을 매매하는 전략이 안좋은 결과를 야기했기 때문이라고 생각된다.
 
     
-
 
 
 
